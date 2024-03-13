@@ -1,0 +1,63 @@
+@use "colors" as *;
+
+// GENERAL
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.section {
+	padding: 2.4em 2em;
+}
+
+.section-heading,
+.section-heading-vip {
+	// margin-bottom: 0.6em;
+	margin-top: 3rem;
+	font-size: 3.6rem;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.section-heading-vip {
+	margin-top: 2em;
+}
+
+.shadow {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: -10;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.display-none {
+	display: none;
+}
+
+.display-inline-block {
+	display: inline-block;
+}
+
+.visibility-visible {
+	visibility: visible;
+}
+
+.visibility-hidden {
+	visibility: hidden;
+}
+
+.red-alert {
+	color: $text-error;
+}
+
+.green-alert {
+	color: $green-darker;
+}
